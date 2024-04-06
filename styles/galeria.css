@@ -1,0 +1,51 @@
+@import url(/styles/cabecalho.css);
+@import url(/styles/footer.css);
+
+:root {
+  --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
+  --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
+  --fonte-principal: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-fonte-titulo);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--fonte-principal);
+}
+
+.galeria_body {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 2450px;
+  padding-top: 41px;
+}
+
+.galeria_container {
+  justify-content: center;
+  margin: 0 auto;
+  width: 84.5vw;
+  height: 2345px;
+  border-top: 4px solid #000;
+}
+
+.galeria_titulo {
+  text-align: center;
+  font-size: 64px;
+  line-height: 100px;
+  color: #000;
+}
+
+.galeria_grids {
+display: grid;
+grid-template-columns: auto auto auto;
+
+  
+}
+
+.galeria_grids img{
+    width: 30vw;
+    height: 30vw;  
+  }
+

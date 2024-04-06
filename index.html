@@ -4,28 +4,155 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Victory GYM</title>
   </head>
   <header class="cabecalho">
     <a href="#" class="cabecalho_link">Home</a>
-    <a href="#" class="cabecalho_link">Sobre</a>
-    <a href="#" class="cabecalho_link">Galeria</a>
-    <img src="/img/VictoryGymLogo1.svg" alt="logo da academia" class="cabecalho_logo"/>
+    <a href="index.html#sobre" class="cabecalho_link">Sobre</a>
+    <a href="galeria.html" class="cabecalho_link">Galeria</a>
+    <img
+      src="/img/VictoryGymLogo1.svg"
+      alt="logo da academia"
+      class="cabecalho_logo"
+    />
     <a href="#" class="cabecalho_link">Treinos</a>
-    <a href="#" class="cabecalho_link">Planos</a>
+    <a href="planos.html" class="cabecalho_link">Planos</a>
     <a href="#" class="cabecalho_link">Contato</a>
   </header>
   <body>
-    <div class="container">
-      <h1 class="container_titulo_jornada">SUA JORNADA COMEÇA AQUI</h1>
-      <h2 class="container_titulo_titulo">WELCOME TO THE ULTIMATE GYM</h2>
-      <p class="container_titulo_texto"> Sejam bem-vindos ao Victory Gym, onde transformação, força e bem-estar
-        se unem. Nosso compromisso com sua jornada de fitness é incomparável e
-        mal podemos esperar para que você explore tudo o que temos a oferecer. </p>
+    <section>
+      <div class="container">
+        <h1 class="container_titulo_jornada">SUA JORNADA COMEÇA AQUI</h1>
+        <h2 class="container_titulo_titulo">WELCOME TO THE ULTIMATE GYM</h2>
+        <p class="container_titulo_texto">
+          Sejam bem-vindos ao Victory Gym, onde transformação, força e bem-estar
+          se unem. Nosso compromisso com sua jornada de fitness é incomparável e
+          mal podemos esperar para que você explore tudo o que temos a oferecer.
+        </p>
+      </div>
+    </section>
+
+    <section id="sobre" class="container_sobre">
+      <div class="container_sobre">
+        <div class="container_sobre_e_texto">
+          <h2 class="container_sobre_titulo">UM AMBIENTE PARA SEU SUCESSO</h2>
+          <p class="container_sobre_texto">
+            Descubra a história por trás do Victory Gym, um destino de fitness
+            que é mais do que apenas uma academia. Saiba mais sobre nossa
+            missão, valores e nossa visão para revolucionar a indústria do
+            fitness por meio de inovação e dedicação.
+          </p>
+          <p class="container_sobre_texto">
+            O nosso ginásio é o resultado de uma tradição familiar, depois de
+            muitos anos de paixão os ,nossos pais decidiram criar o seu ginásio
+            personalizado.
+          </p>
+        </div>
+        <div class="container_sobre_fundador">
+          <img
+            src="/img/MANOEL GOMES 1.svg"
+            alt="imagem do co-fundador Manoel Gomes o HOMI"
+            class="container_sobre_imagem"
+          />
+          <div class="container_sobre_imagem_text overlay">
+            <p class="container_sobre_imagem_texto">Manoel Gomes O HOMEM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container_treino_test">
+      <div class="container_treino">
+        <h2 class="treino_titulo">SEUS TREINOS</h2>
+        <div class="treino_texto">
+          <p>
+            Conheça nossa equipe de especialistas em fitness, treinadores e
+            funcionários que estão aqui para tornar sua jornada de fitness
+            excepcional. A paixão deles pelo fitness e a dedicação ao seu
+            sucesso são o que nos diferencia.
+          </p>
+        </div>
+        <div class="treino_img">
+          <div>
+            <img src="/img/boxe.svg" alt="Imagem Treino 1" />
+            <h2 class="treino_img_titulo">BORA PRO COMBATE</h2>
+            <p class="treino_img_texto">Aulas de lutas para você exercitar o físico, a resistência, a agilidade e o ritmo.</p>
+          </div>
+          <div class="imagem_mid">
+            <img
+              class="imagem_mid_mid"
+              src="/img/BIKE.svg"
+              alt="Imagem Treino 2"
+            />
+            <h2 class="treino_img_titulo">CORRIDA E MOVIMENTO</h2>
+            <p class="treino_img_texto">Exercício de velocidade para você cuidar do coração, fortalecer ossos, os músculos e perder peso.</p>
+          </div>
+          <div>
+            <img src="/img/JUMP.svg" alt="Imagem Treino 3" />
+            <h2 class="treino_img_titulo">FOCO E CARDIO</h2>
+            <p class="treino_img_texto">Exercício de resistência muscular localizados para sia hipertrofia e emagrecimento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <div class="rodape_dados">
+          <h2 class="rodape_dados_titulo">Feedback</h2>
+        <form class="rodape_dados_form">
+          <input class="rodape_dados_input" type="text" id="name" placeholder="Nome"></br>
+          <input class="rodape_dados_input" type="number" id="number" placeholder="Telefone" ></br>
+          <input class="rodape_dados_input" type="email" id="email" placeholder="E-mail"></br>
+          <textarea class="rodape_dados_input area_texto" name="message" rows="7" placeholder="Mensagem"> </textarea>
+          <br>
+          <input class="rodape_dados_submit" type="submit">
+        </form>
+      </div>
+
+    <div class="rodape_contato">
+        <div class="rodape_contato_colunas">
+          <img src="/img/ICONE LOC 2.svg" alt="icode de localizacao" class="rodape_contato_imagem">
+          <p class="rodape_cotato_titulo">Localização</p>
+          <img src="/img/MAPS.svg" alt="localizacao academia" class="imagem_mapa">
+      </div>
+      <div class="rodape_contato_colunas">
+          <img src="/img/ICONE REL 1.svg" alt="icode de relogio" class="rodape_contato_imagem">
+          <p class="rodape_cotato_titulo">Horários</p>
+          <p class="rodape_contato_texto">Seg - Sex 6:00 AM - 11 PM</p>
+          <p class="rodape_contato_texto">Sab - Dom 6:00 AM - 04 PM</p>
+          
+      </div>
+      <div class="rodape_contato_colunas">
+          <img src="/img/ICONE CONTATO 1.svg" alt="icode de contato" class="rodape_contato_imagem">
+          <p class="rodape_cotato_titulo">Contato</p>
+          <p class="rodape_contato_texto">victorygym@gmail.com</p>
+          <p class="rodape_contato_texto">(44)99999-9999</p>
+      </div>
     </div>
+
+    <ul class="rodape_social">
+      <hr>
+      <h2 class="rodape_social_titulo">VICTORY GYM</h2>
+      <p class="rodape_social_texto ">NOT ONLY GYM</p>
+      <hr>
+      <li class="rodape_social_lista"><a class="contato_social_link" href="https://www.instagram.com/" target="_blank">
+        <img class="rodape_social_img" src="/img/ICONE INSTA 1.svg">Instagram</a></li>
+      <li class="rodape_social_lista"><a class="contato_social_link" href="https://web.whatsapp.com/" target="_blank">
+        <img class="rodape_social_img" src="/img/ICONTE WHATS.svg">WhatsApp</a></li>
+      <li class="rodape_social_lista"><a class="contato_social_link" href="https://twitter.com/home" target="_blank">
+        <img class="rodape_social_img" src="/img/ICONE TWITTER.svg">X</a></li>
+      <li class="rodape_social_lista"><a  class="contato_social_link" href="https://www.facebook.com/" target="_blank">
+        <img class="rodape_social_img" src="/img/ICONE FACE 1.svg">Facebook</a></li>
+      <hr>
+    </ul>
+  </div>
+    </footer>
   </body>
 </html>

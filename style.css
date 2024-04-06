@@ -1,11 +1,14 @@
 @import url(/styles/cabecalho.css);
 @import url(/styles/home.css);
+@import url(/styles/sobre.css);
+@import url(/styles/treino.css);
+@import url(/styles/footer.css);
 
 
 :root {
     --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
     --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
-    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-principal: "Montserrat", sans-serif; 
 }
 
 

@@ -1,0 +1,63 @@
+.container_sobre {
+    margin-top: 8%;
+    margin-bottom: 5%; /* alterar para ajustar com os "produtos" */
+    max-width: 50%;
+    display: flex;
+    gap: 10%;
+}
+
+.container_sobre_e_texto {
+    margin-left: 110px;
+}
+
+.container_sobre_titulo {
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 85%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container_sobre_texto {
+    padding-bottom: 25px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.container_sobre_imagem {
+   display: block;
+   width: 750px;
+   margin-left: 23%;
+}
+
+.container_sobre_fundador {
+    position: relative; /* sem isso não funcina o position do overlay de aparecer um texto na imagem sobrepondo para rolar a animao*/
+}
+.container_sobre_imagem_texto {
+    font-weight: 500;
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .8s ease;
+  }
+
+.container_sobre_fundador:hover .overlay {
+    height: 100%;
+}
+
+.container_sobre_fundador:hover .container_sobre_imagem {
+    filter: blur(2px);
+}
+

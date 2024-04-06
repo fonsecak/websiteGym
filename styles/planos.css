@@ -1,0 +1,81 @@
+@import url(/styles/cabecalho.css);
+@import url(/styles/footer.css);
+
+:root {
+    --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
+    --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
+    --fonte-principal: "Montserrat", sans-serif;
+     }
+
+     body {
+        background-color: var(--cor-de-fundo);
+        color: var(--cor-fonte-titulo);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--fonte-principal);
+      }
+      .container_planos_test {
+        background-color: #EFEFEF;
+        width: 100%;
+        padding-top: 5%;
+    } 
+
+    .planos_ins {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -5%;        
+    }
+       .planos_ins_titulo1 {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 0 20px;
+        color: #d1c44d;
+       }
+
+       .planos_ins_titulo2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #d1c44d;
+       }
+
+       .planos_ins_titulo3 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #d1c44d;
+        }
+       
+       .planos_ins_valor {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        margin: 20px;
+       }
+
+       .planos_ins_van {
+        font-size: 40px;
+        width: center;
+        font-weight: 300;
+        color: #d1c44d;
+       }
+
+       .planos_ins_v {
+        font-size: 20px;
+        width: center;
+        font-weight: 200;
+        margin-top: 10%;
+        text-align: start;
+        list-style: disc;
+       }
+
+       .planos_colunas {
+        height: 650px;
+        margin: 50px 100px;
+        padding: 50px;
+        background-color: #181818;
+        border-radius: 30px;
+        box-shadow: 11px 11px 5px #d1c44dda;
+       }
+
+   

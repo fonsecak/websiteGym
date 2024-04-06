@@ -1,16 +1,24 @@
 .container {
+    margin-top: 2%;
     max-width: 50%;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .container_titulo_jornada {
     font-size: 32px;
     font-weight: 200;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 15px;
+    margin-right: 46%;
 }
 
 .container_titulo_titulo {
     font-size: 110px;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 85%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .container_titulo_texto {
