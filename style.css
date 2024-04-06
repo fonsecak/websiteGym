@@ -1,0 +1,26 @@
+@import url(/styles/cabecalho.css);
+@import url(/styles/home.css);
+
+
+:root {
+    --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
+    --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
+    --fonte-principal: "Montserrat", sans-serif;
+}
+
+
+
+
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-fonte-titulo);
+    font-size: 16px;
+    font-weight: 400;
+    background-image: url(img/planodefundoAcademia.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0, 0 0, 50%;
+    font-family: var(--fonte-principal);
+}

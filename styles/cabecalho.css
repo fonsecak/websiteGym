@@ -1,0 +1,17 @@
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalho_link {
+  color: var(--cor-fonte-titulo);
+  padding: 0 5vh 0 5vh;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+.cabecalho_logo {
+  width: 250px;
+}

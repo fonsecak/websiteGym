@@ -1,0 +1,19 @@
+.container {
+    max-width: 50%;
+    margin-left: 100px;
+}
+
+.container_titulo_jornada {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.container_titulo_titulo {
+    font-size: 110px;
+    font-weight: 400;
+}
+
+.container_titulo_texto {
+    font-size: 28px;
+    font-weight: 100;
+}
