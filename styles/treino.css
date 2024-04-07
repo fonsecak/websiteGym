@@ -1,42 +1,41 @@
 .container_treino_test {
     background-color: #EFEFEF;
     width: 100%;
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 2.2%;
 }
 
-
-.container_treino {
-  height: 1510px;
-}
 
 .treino_titulo {
   justify-content: center;
   text-align: center;
   color: black;
-  font-size: 110px;
+  font-size: 80px;
   font-weight: 500;
   line-height: 85%;
   margin-top: 10px;
   margin-bottom: 10px;
   border-top: 4px solid #000000;
   border-bottom: 4px solid #000000;
-  margin: 0% 25% 0 25%;
-  padding: 25px;
+  margin: 0% 30% 0 30%;
+  padding: 5px;
 }
 
-
+.container_treino_imagem {
+    height: 350px;
+}
 
 
 .treino_texto {
     margin: 0 auto;
     margin-top: 25px;
     width: 1700px;
-    height: 165px;
+
 }
 
 .treino_texto p {
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     color: #000000;
     line-height: 40px;
 
@@ -46,7 +45,7 @@
     width: 100%;
     justify-content: space-between;
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
     text-align: center;
     color: black;
 }
@@ -56,17 +55,17 @@
 }
 
 .imagem_mid {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .treino_img_titulo {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 100px; 
 
 }
 
 .treino_img_texto {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 40px;
 
 }
