@@ -17,8 +17,8 @@ body {
 
 .galeria_body {
   background-color: #d9d9d9;
-  width: 100%;
-  height: 2450px;
+  width: 100vw;
+  height: 1750px;
   padding-top: 41px;
 }
 
@@ -37,15 +37,30 @@ body {
   color: #000;
 }
 
-.galeria_grids {
+.galeria_container_grid {
 display: grid;
-grid-template-columns: auto auto auto;
-
-  
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 15px;
 }
 
-.galeria_grids img{
-    width: 30vw;
-    height: 30vw;  
-  }
+.grid_col_left, .grid_col_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid_img {
+  padding:10px;
+}
+
+.grid_col_right img {
+  width: 34.35vw;
+}
+
+.grid_col_left img {
+  width: 21.93vw;
+}
+
+.grid_col_middle img {
+  width: 24vw
+}
 
