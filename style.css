@@ -1,8 +1,8 @@
-@import url(/styles/cabecalho.css);
-@import url(/styles/home.css);
-@import url(/styles/sobre.css);
-@import url(/styles/treino.css);
-@import url(/styles/footer.css);
+@import url(styles/cabecalho.css);
+@import url(styles/home.css);
+@import url(styles/sobre.css);
+@import url(styles/treino.css);
+@import url(styles/footer.css);
 
 
 :root {

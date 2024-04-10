@@ -1,5 +1,5 @@
-@import url(/styles/cabecalho.css);
-@import url(/styles/footer.css);
+@import url(cabecalho.css);
+@import url(footer.css);
 
 :root {
   --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
