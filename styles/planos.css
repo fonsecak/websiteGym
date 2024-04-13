@@ -1,24 +1,26 @@
 @import url(cabecalho.css);
 @import url(footer.css);
 
-:root {
-    --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
-    --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
-    --fonte-principal: "Montserrat", sans-serif;
-     }
+    :root {
+        --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
+        --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
+        --fonte-principal: "Montserrat", sans-serif; 
+        --fonte-secundaria: "Playfair Display", serif;
+        --fonte-terciaria: "Poppins", sans-serif;
+    }
 
-     body {
+    body {
         background-color: var(--cor-de-fundo);
         color: var(--cor-fonte-titulo);
         font-size: 16px;
         font-weight: 400;
         font-family: var(--fonte-principal);
-      }
+    }
       .container_planos_test {
-        background-color: #EFEFEF;
+        background-color: #d9d9d9;
         width: 100%;
         padding-top: 5%;
-    } 
+    }
 
     .planos_ins {
         display: flex;
@@ -30,7 +32,7 @@
        .planos_ins_titulo1 {
         font-size: 40px;
         font-weight: 600;
-        margin: 0 20px;
+        margin: 0 30px;
         color: #d1c44d;
        }
 
@@ -43,6 +45,7 @@
        .planos_ins_titulo3 {
         font-size: 40px;
         font-weight: 600;
+        margin: 0 30px;
         color: #d1c44d;
         }
        

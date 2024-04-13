@@ -9,12 +9,9 @@
     --cor-de-fundo: #181818; /* altera a cor de fundo do site pela variante */
     --cor-fonte-titulo: #ffffff; /* altera a cor dos titulos */
     --fonte-principal: "Montserrat", sans-serif; 
+    --fonte-secundaria: "Playfair Display", serif;
+    --fonte-terciaria: "Poppins", sans-serif;
 }
-
-
-
-
-
 
 body {
     background-color: var(--cor-de-fundo);
@@ -26,4 +23,5 @@ body {
     background-size: 100%;
     background-position: 0 0, 0 0, 50%;
     font-family: var(--fonte-principal);
+    width: 100%;
 }

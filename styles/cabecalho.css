@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .cabecalho_link {
+  font-family: var(--fonte-secundaria);
   color: var(--cor-fonte-titulo);
   padding: 0 5vh 0 5vh;
   text-transform: uppercase;
@@ -14,10 +16,13 @@
 }
 
 .cabecalho_logo {
-  width: 250px;
+  width: 100px;
+  padding: 0% 2%;
 }
 
 
 .cabecalho_link:hover {
   color: #d1c44d;
+  border-bottom: 3px solid #d1c44d;
+  padding-bottom: 15px;
 }

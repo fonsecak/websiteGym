@@ -2,19 +2,18 @@
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-.rodape_dados {
-    margin-right: 45px;
-}
 .rodape_dados_form {
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .rodape_dados_titulo {
     font-size: 36px;
     font-weight: 400;
-    margin-left: 140px;
+    margin-left: 20px;
     margin-bottom: 10px;
 }
 
@@ -22,47 +21,42 @@
     height: 30px;
     width: 250px;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 5px;
     border-style: solid;
     border-width: 2px 2px;
-    border-color: #fff;
+    border-color: #5b5a5a;
+    border-radius: 4px;
     background-color: var(--cor-de-fundo);
 }
 .area_texto {
-    height: 120px;
+    height: 110px;
 }
 
 .rodape_dados_submit {
-    border: 1px solid #fff;
+    border: 1px solid #5b5a5a;
     color: #fff;
     background-color: var(--cor-de-fundo);
-    padding-left: px;
 }
 
 .rodape_contato {
     display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    margin: 10px 96px;
+    width: 50%;
+    padding: 0px 5%;
 }
 .rodape_contato_colunas {
-    border: 1px solid #fff;
-    height: 300px;
-    width: 300px;
+    border: 1px solid #5b5a5a;
+    height: 400px;
+    width: 100%;
     padding-top: 25px;
-    align-self: center;
 }
 .rodape_contato_imagem, .rodape_social_img {
     width: 80px;
 }
-.imagem_mapa {
-    width: 250px;
-}
 
 .rodape_cotato_titulo {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     padding-bottom: 2%;
 }
@@ -73,31 +67,26 @@
     margin-top: 25px;
 }
 
-.rodape_social {
-    padding-right: 10px;
-}
-
-
 .contato_social_link {
     display: flex;
     align-items: center;
     font-size: 18px;
     font-weight: 200;
     text-decoration: none;
-    color:#fff;
+    color:#ffffff;
 }
 
 .rodape_social_titulo {
     font-size: 36px;
-    font-weight: 400;
-    padding-bottom: 2%;
+    font-weight: 500;
+    padding-bottom: 1%;
     color: #d1c44d;
 }
 
 .rodape_social_texto {
     font-size: 15px;
     font-weight: 200;
-    margin-left: 25%;
+    padding-left: 25%;
     padding-top: 2%;
     color: #a09635;
 }

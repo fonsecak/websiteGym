@@ -1,10 +1,11 @@
 .container {
-    margin-top: 2%;
-    max-width: 50%;
-    margin-left: 110px;
+    padding-top: 5%;
+    width: 50%;
+    padding-left: 80px;
 }
 
 .container_titulo_jornada {
+    font-family: var(--fonte-secundaria);
     font-size: 32px;
     font-weight: 200;
     border-top: 2px solid #fff;
@@ -14,6 +15,7 @@
 }
 
 .container_titulo_titulo {
+    font-family: var(--fonte-secundaria);
     font-size: 110px;
     font-weight: 500;
     line-height: 85%;
@@ -22,6 +24,7 @@
 }
 
 .container_titulo_texto {
-    font-size: 28px;
+    font-family: var(--fonte-terciaria);
+    font-size: 25px;
     font-weight: 100;
 }
